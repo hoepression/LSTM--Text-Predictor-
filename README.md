@@ -56,3 +56,19 @@ Ensure the following are installed:
    ```bash
    git clone https://github.com/hoepression/LSTM--Text-Predictor-.git
    cd LSTM--Text-Predictor-
+
+
+2.Install dependencies:
+```bash
+pip install -r requirements.txt
+
+```
+3.Train the model:
+```bash
+   python train_model.py
+```
+
+4.Run the Streamlit app:
+```bash
+  streamlit run app.py
+
